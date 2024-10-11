@@ -1,0 +1,97 @@
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.exe
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.deps.json
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.runtimeconfig.json
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.pdb
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.csproj.AssemblyReference.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddEmployee.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AdminWindow.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\EmployeeManagement.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain_MarkupCompile.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain_MarkupCompile.lref
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddEmployee.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AdminWindow.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\EmployeeManagement.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.g.resources
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.AssemblyInfoInputs.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.AssemblyInfo.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.csproj.CoreCompileInputs.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\refint\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.pdb
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.genruntimeconfig.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ref\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.exe
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.deps.json
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.runtimeconfig.json
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.pdb
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.csproj.AssemblyReference.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddEmployee.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AdminWindow.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\EmployeeManagement.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\OrdersManagement.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ShiftsManagement.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain_MarkupCompile.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain_MarkupCompile.lref
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddEmployee.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AdminWindow.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\EmployeeManagement.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\OrdersManagement.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ShiftsManagement.baml
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.g.resources
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.AssemblyInfoInputs.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.AssemblyInfo.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.csproj.CoreCompileInputs.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\refint\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.pdb
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.genruntimeconfig.cache
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ref\Kurkain.dll
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddShift.g.cs
+C:\Users\Kurakin.F.A\Downloads\Kurkain 06\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddShift.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.exe
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.deps.json
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.runtimeconfig.json
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.dll
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\bin\Debug\net6.0-windows\Kurkain.pdb
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.csproj.AssemblyReference.cache
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddEmployee.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddShift.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AdminWindow.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\EmployeeManagement.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\OrdersManagement.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ShiftsManagement.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\WaiterWindow.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain_MarkupCompile.cache
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain_MarkupCompile.lref
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddEmployee.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AddShift.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\AdminWindow.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\EmployeeManagement.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\OrdersManagement.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ShiftsManagement.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\WaiterWindow.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.g.resources
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.AssemblyInfoInputs.cache
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.AssemblyInfo.cs
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.csproj.CoreCompileInputs.cache
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.dll
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\refint\Kurkain.dll
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.pdb
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\Kurkain.genruntimeconfig.cache
+C:\Users\Kurakin.F.A\Desktop\Kurkain 17\Kurkain 26\Kurkain\obj\Debug\net6.0-windows\ref\Kurkain.dll
