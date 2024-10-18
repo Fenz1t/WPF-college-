@@ -47,7 +47,8 @@
                             <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Foreground" Value="White"/>
                                     <Setter Property="Background" Value="#9370DB"/>
-                            </Trigger>
+                                    <Setter Property="BorderBrush" Value="#9370DB"/>
+                                </Trigger>
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
@@ -72,7 +73,8 @@
                             <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Foreground" Value="White"/>
                                     <Setter Property="Background" Value="#9370DB"/>
-                            </Trigger>
+                                    <Setter Property="BorderBrush" Value="#9370DB"/>
+                                </Trigger>
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
@@ -97,7 +99,8 @@
                             <Trigger Property="IsMouseOver" Value="True">
                                     <Setter Property="Foreground" Value="White"/>
                                     <Setter Property="Background" Value="#9370DB"/>
-                            </Trigger>
+                                    <Setter Property="BorderBrush" Value="#9370DB"/>
+                                </Trigger>
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
