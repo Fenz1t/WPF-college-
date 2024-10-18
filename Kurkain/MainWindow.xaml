@@ -27,20 +27,64 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
+        <Style x:Key="GradientButton" TargetType="Button">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,2" EndPoint="1,5">
+                        <GradientStop Color="#00BFFF" Offset="0.0"/>
+                        <GradientStop Color="#4B0082" Offset="0.7"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#FFA240" Offset="0.0"/>
+                                <GradientStop Color="#FFA245" Offset="1.0"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
     <Grid>
-        <Grid Background="#00BFFF">
-            <Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#00BFFF" Offset="0" />
+                <GradientStop Color="#4B0082" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <StackPanel Grid.Row="1"  HorizontalAlignment="Center" VerticalAlignment="Center" Background ="#FFFFF8F8">
-                <Label Content="Логин"  FontWeight="Bold" FontSize="15px"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0"></Label>
-                <TextBox x:Name="UsernameTextBox" Background="#FFA240" Foreground="White" FontWeight="Bold"  FontSize="19" BorderBrush="Black" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0" Height="31">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border CornerRadius="4"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Transparent" BorderThickness="2" Padding="5,15,5,20" >
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="9" Opacity="0.5"/>
+            </Border.Effect>
+            <StackPanel>
+                <Label Content="Логин" Foreground="White" FontWeight="Bold" FontSize="18px"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0"></Label>
+                <TextBox x:Name="UsernameTextBox" Background="Transparent" Foreground="#D3D3D3" FontWeight="Bold"  FontSize="15" BorderBrush="White" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0" Height="31">
                     <TextBox.Style>
                         <Style TargetType="TextBox">
                             <Setter Property="Template">
@@ -60,8 +104,8 @@ CornerRadius="5">
                         </Style>
                     </TextBox.Style>
                 </TextBox>
-                <Label Content="Пароль:" FontWeight="Bold" FontSize="15px"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0"></Label>
-                <PasswordBox x:Name="PasswordTextBox" Background="#FFA240" Width="200" FontSize="15" HorizontalAlignment="Left" Foreground="White" BorderBrush="Black" VerticalAlignment="Top" Margin="10,0,10,0" Height="31">
+                <Label Content="Пароль" Foreground="White" FontWeight="Bold" FontSize="18px"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,15,15,0"></Label>
+                <PasswordBox x:Name="PasswordTextBox" Background="Transparent" Width="200" FontSize="15" HorizontalAlignment="Left" Foreground="White" BorderBrush="White" VerticalAlignment="Top" Margin="10,0,10,15" Height="31">
                     <PasswordBox.Style>
                         <Style TargetType="PasswordBox">
                             <Setter Property="Template">
@@ -83,11 +127,11 @@ CornerRadius="5">
                 </PasswordBox>
 
 
-                <Button  Click="LoginButton_Click" Style="{StaticResource DefaultButton}"  FontSize="15px" FontWeight="Bold" Content="Войти"  HorizontalAlignment="Center" Margin="10" Height="30" Width="200" BorderBrush="White" >
+                <Button  Click="LoginButton_Click" Style="{StaticResource GradientButton}"  FontSize="15px" FontWeight="Bold" Content="Войти"  HorizontalAlignment="Center" Margin="10" Height="30" Width="200" BorderBrush="White" >
 
                 </Button>
 
             </StackPanel>
-        </Grid>
+        </Border>
     </Grid>
 </Window>

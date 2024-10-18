@@ -8,6 +8,12 @@
        Title="Администратор" SizeToContent="WidthAndHeight" Background="#00BFFF" WindowStartupLocation="CenterScreen">
     
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#00BFFF" Offset="0.0" />
+                <GradientStop Color="#4B0082" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -16,13 +22,17 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Border CornerRadius="4"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Transparent" BorderThickness="2" Padding="5,15,5,20" >
+            <Border.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="9" Opacity="0.5"/>
+            </Border.Effect>
+            <StackPanel>
             <Button Content="Управление сотрудниками"  MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="#FFA240"/>
-                        <Setter Property="Foreground" Value="White"/>
-                        <Setter Property="BorderBrush" Value="#FF7773F5"/>
+                            <Setter Property="Background" Value="#ADD8E6"/>
+                        <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
                         <Setter Property="Template">
 
                             <Setter.Value>
@@ -35,8 +45,8 @@
                         </Setter>
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF281B65"/>
- 
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="Background" Value="#9370DB"/>
                             </Trigger>
                         </Style.Triggers>
                     </Style>
@@ -45,9 +55,9 @@
             <Button Content="Управление заказами" MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="#FFA240"/>
-                        <Setter Property="Foreground" Value="White"/>
-                        <Setter Property="BorderBrush" Value="#FF7773F5"/>
+                            <Setter Property="Background" Value="#ADD8E6"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
                         <Setter Property="Template">
 
                             <Setter.Value>
@@ -60,7 +70,8 @@
                         </Setter>
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF281B65"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="Background" Value="#9370DB"/>
                             </Trigger>
                         </Style.Triggers>
                     </Style>
@@ -69,9 +80,9 @@
             <Button Content="Управление сменами" MinWidth="200"  MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="#FFA240"/>
-                        <Setter Property="Foreground" Value="White"/>
-                        <Setter Property="BorderBrush" Value="#FF7773F5"/>
+                            <Setter Property="Background" Value="#ADD8E6"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
                         <Setter Property="Template">
 
                             <Setter.Value>
@@ -84,7 +95,8 @@
                         </Setter>
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#FF281B65"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="Background" Value="#9370DB"/>
                             </Trigger>
                         </Style.Triggers>
                     </Style>
@@ -93,9 +105,9 @@
             <Button Content="Выйти" MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="#FFA240"/>
-                        <Setter Property="Foreground" Value="White"/>
-                        <Setter Property="BorderBrush" Value="#FF7773F5"/>
+                            <Setter Property="Background" Value="#ADD8E6"/>
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="BorderBrush" Value="Transparent"/>
                         
                         <Setter Property="Template">
 
@@ -109,9 +121,9 @@
                         </Setter>
                         <Style.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="Red"/>
+                                <Setter Property="Background" Value="Tomato"/>
                                 <Setter Property="Foreground" Value="White"/>
-                                <Setter Property="BorderBrush" Value="Red"/>
+                                    <Setter Property="BorderBrush" Value="Tomato"/>
                             </Trigger>
                         </Style.Triggers>
                     </Style>
@@ -120,5 +132,6 @@
           
 
         </StackPanel>
+        </Border>
     </Grid>
 </Window>
