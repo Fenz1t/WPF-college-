@@ -16,7 +16,7 @@
         <Style x:Key="DefaultButton" TargetType="Button">
             <Setter Property="Background" Value="#ADD8E6"/>
             <Setter Property="Foreground" Value="black"/>
-            <Setter Property="BorderBrush" Value="#FF7773F5"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
             <Setter Property="Template">
 
                 <Setter.Value>
@@ -31,6 +31,7 @@
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#9370DB"/>
                     <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="BorderBrush" Value="#9370DB"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -81,8 +82,8 @@
                     </DataGrid.Background>
                     <DataGrid.ColumnHeaderStyle>
                         <Style TargetType="DataGridColumnHeader">
-                            <Setter Property="Background" Value="#A67500" />
-                            <Setter Property="Foreground" Value="White" />
+                            <Setter Property="Background" Value="#ADD8E6" />
+                            <Setter Property="Foreground" Value="Black" />
                             <Setter Property="HorizontalContentAlignment" Value="Center"/>
                             <Setter Property="VerticalAlignment" Value="Center"/>
                         </Style>

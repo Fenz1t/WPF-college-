@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="Окно повара" Height="500" Width="365"  WindowStartupLocation="CenterScreen">
     <Window.Background>
-        <LinearGradientBrush EndPoint="0.7,0" StartPoint="0.7,6">
-            <GradientStop Color="#00BFFF" Offset="2"/>
-            <GradientStop Color="#00BFFF" Offset="1"/>
-            <GradientStop Color="#00BFFF" Offset="0"/>
+        <LinearGradientBrush StartPoint="1,0" EndPoint="0,1" >
+            <GradientStop Color="#00BFFF" Offset="0" />
+            <GradientStop Color="#4B0082" Offset="1" />
         </LinearGradientBrush>
     </Window.Background>
     <Window.Resources>
         <Style x:Key="DefaultButton" TargetType="Button">
-            <Setter Property="Background" Value="#FFA240"/>
-            <Setter Property="Foreground" Value="white"/>
-            <Setter Property="BorderBrush" Value="#FF7773F5"/>
+            <Setter Property="Background" Value="#ADD8E6"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+
             <Setter Property="Template">
 
                 <Setter.Value>
@@ -30,7 +30,9 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FF281B65"/>
+                    <Setter Property="Background" Value="#FF7773F5"/>
+                    <Setter Property="BorderBrush" Value="#FF7773F5"/>
+                    <Setter Property="Foreground" Value="White"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -72,11 +74,17 @@
             <Border BorderThickness="1" Grid.Row="0" Margin="0,0,0,0">
                 <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" 
        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontWeight="Bold"
-       CanUserAddRows="False" Background="#007CA6">
+       CanUserAddRows="False">
+                    <DataGrid.Background>
+                        <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                            <GradientStop Color="#00BFFF" Offset="0" />
+                            <GradientStop Color="#4B0082" Offset="1" />
+                        </LinearGradientBrush>
+                    </DataGrid.Background>
                     <DataGrid.ColumnHeaderStyle>
                         <Style TargetType="DataGridColumnHeader">
-                            <Setter Property="Background" Value="#A67500" />
-                            <Setter Property="Foreground" Value="White" />
+                            <Setter Property="Background" Value="#ADD8E6" />
+                            <Setter Property="Foreground" Value="Black" />
                             <Setter Property="HorizontalContentAlignment" Value="Center"/>
                             <Setter Property="VerticalAlignment" Value="Center"/>
                         </Style>

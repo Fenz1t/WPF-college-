@@ -28,15 +28,9 @@
             </Style.Triggers>
         </Style>
         <Style x:Key="GradientButton" TargetType="Button">
-            <Setter Property="Background">
-                <Setter.Value>
-                    <LinearGradientBrush StartPoint="0,2" EndPoint="1,5">
-                        <GradientStop Color="#00BFFF" Offset="0.0"/>
-                        <GradientStop Color="#4B0082" Offset="0.7"/>
-                    </LinearGradientBrush>
-                </Setter.Value>
-            </Setter>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#ADD8E6"/>
+            <Setter Property="Foreground" Value="black"/>
+            <Setter Property="BorderBrush" Value="#FF7773F5"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="FontSize" Value="16"/>
             <Setter Property="BorderBrush" Value="Transparent"/>
@@ -51,14 +45,9 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background">
-                        <Setter.Value>
-                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                                <GradientStop Color="#FFA240" Offset="0.0"/>
-                                <GradientStop Color="#FFA245" Offset="1.0"/>
-                            </LinearGradientBrush>
-                        </Setter.Value>
-                    </Setter>
+                    <Setter Property="Background" Value="#9370DB"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="BorderBrush" Value="#9370DB"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -84,7 +73,7 @@
             </Border.Effect>
             <StackPanel>
                 <Label Content="Логин" Foreground="White" FontWeight="Bold" FontSize="18px"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0"></Label>
-                <TextBox x:Name="UsernameTextBox" Background="Transparent" Foreground="#D3D3D3" FontWeight="Bold"  FontSize="15" BorderBrush="White" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0" Height="31">
+                <TextBox x:Name="UsernameTextBox" Background="Transparent" Foreground="White" FontWeight="Bold"  FontSize="15" BorderBrush="White" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,10,0" Height="31">
                     <TextBox.Style>
                         <Style TargetType="TextBox">
                             <Setter Property="Template">
