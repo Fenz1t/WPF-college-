@@ -365,3 +365,5 @@ C:\Users\User\Desktop\3 курс Серегина\Kurkain 26\Kurkain\obj\Debug\n
 C:\Users\User\Desktop\3 курс Серегина\Kurkain 26\Kurkain\obj\Debug\net8.0-windows7.0\Kurkain.genruntimeconfig.cache
 C:\Users\User\Desktop\3 курс Серегина\Kurkain 26\Kurkain\obj\Debug\net8.0-windows7.0\ref\Kurkain.dll
 C:\Users\User\Desktop\3 курс Серегина\Kurkain 26\Kurkain\obj\Debug\net8.0-windows7.0\Kurkain.sourcelink.json
+C:\Users\User\Desktop\3 курс Серегина\Kurkain 26\Kurkain\obj\Debug\net8.0-windows7.0\Views\AddOrder.g.cs
+C:\Users\User\Desktop\3 курс Серегина\Kurkain 26\Kurkain\obj\Debug\net8.0-windows7.0\Views\AddOrder.baml
