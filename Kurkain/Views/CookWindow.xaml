@@ -101,14 +101,9 @@
 
 
             <StackPanel Grid.Row="1" VerticalAlignment="Center"  HorizontalAlignment="Center">
-                <Button Style="{StaticResource DefaultButton}" MinWidth="250" MinHeight="45" Content="Кнопка" FontWeight="Bold">
-
+                <Button Style="{StaticResource DefaultButton}" MinWidth="250" MinHeight="45" Content="Добавить новый заказ" FontWeight="Bold">
                 </Button>
-
-
             </StackPanel>
-
-
         </Grid>
     </Grid>
 </Window>

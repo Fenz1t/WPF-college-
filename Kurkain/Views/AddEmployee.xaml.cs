@@ -28,30 +28,28 @@ namespace Kurkain.Views
 
         private void AddEmployeeButton_click(object sender, RoutedEventArgs e)
         {
-            // Получаем значения из интерфейса
             string name = UsernameTextBox.Text;
-            string surname = SurnameTextBox.Text;  // Добавьте соответствующее поле в интерфейс
+            string surname = SurnameTextBox.Text; 
             string login = LoginTextBox.Text;
             string password = PasswordTextBox.Password;
-            string status = "worked"; // Здесь можно добавить логику для выбора статуса
-                                      // Получаем строку, выбранную в ComboBox
+            string status = "worked"; 
+                                      
             string selectedRole = (RoleTextBox.SelectedItem as ComboBoxItem)?.Content.ToString();
 
-            // Инициализируем переменную для roleId
+
             int roleId = 0;
 
-            // Сопоставляем выбранную роль с соответствующим roleId
             if (selectedRole == "Chef")
             {
-                roleId = 1; // Предположим, что "Chef" соответствует ID 1
+                roleId = 1; 
             }
             else if (selectedRole == "Waiter")
             {
-                roleId = 2; // Предположим, что "Waiter" соответствует ID 2
+                roleId = 2; 
             }
             else if (selectedRole == "Admin")
             {
-                roleId = 3; // Предположим, что "Admin" соответствует ID 3
+                roleId = 3; 
             }
 
             // Проверяем, что roleId корректен
@@ -104,16 +102,16 @@ namespace Kurkain.Views
 
             using (var context = new KurakinContext())
             {
-                // Загружаем роли из базы данных
+              
                 var roles = context.Roles.ToList();
 
-                // Привязываем роли к ComboBox
+               
                 foreach (var role in roles)
                 {
                     ComboBoxItem item = new ComboBoxItem
                     {
                         Content = role.Name,
-                        Tag = role.Id // Сохраняем id роли в качестве тега
+                        Tag = role.Id 
                     };
 
                     RoleTextBox.Items.Add(item);

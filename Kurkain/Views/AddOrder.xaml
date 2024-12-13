@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kurkain.Views"
         mc:Ignorable="d"
+        Loaded="Window_Loaded_Cooks"
         Title="Добавление заказа" Height="500" Width="380" WindowStartupLocation="CenterScreen"     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
@@ -332,7 +333,7 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" HorizontalAlignment="Left">
-            <Label Content="Дата:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
+            <!--<Label Content="Дата:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>-->
             <Label Content="Статус:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
             <Label Content="Повар:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
             <Label Content="Стол:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
@@ -345,21 +346,22 @@
             </Label>
         </StackPanel>
         <StackPanel Grid.Column="1">
-            <DatePicker VerticalAlignment="Top" Background="Transparent" FontWeight="Bold"  BorderBrush="White" Margin="0,10,5,0" Height="31" FontSize="16">
-            </DatePicker>
+            <!--<DatePicker VerticalAlignment="Top" x:Name="DateOrder" Background="Transparent" FontWeight="Bold"  BorderBrush="White" Margin="0,10,5,0" Height="31" FontSize="16">
+            </DatePicker>-->
             <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="StatusTextBox"  Foreground="White" FontWeight="Bold" VerticalAlignment="Top"  Margin="0,10,5,0" Height="31" BorderBrush="Red" Background="Red" FontSize="16">
-                <TextBlock>Готовится</TextBlock>
-                <TextBlock>Приготовлено</TextBlock>
+                <ComboBoxItem>Created</ComboBoxItem>
+                <ComboBoxItem>cooking</ComboBoxItem>
+                <ComboBoxItem>completed</ComboBoxItem>
             </ComboBox>
             <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="ChefTextBox"  Foreground="White" FontWeight="Bold" VerticalAlignment="Top"  Margin="0,10,5,0" Height="31" BorderBrush="Red" Background="Red" FontSize="16">
-                <TextBlock>Повар 1</TextBlock>
-                <TextBlock>Повар 2</TextBlock>
-                <TextBlock>Повар 3</TextBlock>
+                
             </ComboBox>
             <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="PlaceTextBox"  Foreground="White" FontWeight="Bold" VerticalAlignment="Top"  Margin="0,10,5,0" Height="31" BorderBrush="Red" Background="Red" FontSize="16">
-                <TextBlock>1 стол</TextBlock>
-                <TextBlock>2 стол</TextBlock>
-                <TextBlock>3 стол</TextBlock>
+                <ComboBoxItem>1 table</ComboBoxItem>
+                <ComboBoxItem>2 table</ComboBoxItem>
+                <ComboBoxItem>3 table</ComboBoxItem>
+                <ComboBoxItem>4 table</ComboBoxItem>
+                <ComboBoxItem>5 table</ComboBoxItem>
             </ComboBox>
             <TextBox x:Name="CountClientsTextBox" Background="Transparent" VerticalAlignment="Top" Margin="0,10,5,0" Height="31" FontWeight="Bold" BorderBrush="White" Foreground="White" FontSize="16">
                 <TextBox.Style>
@@ -383,8 +385,7 @@ CornerRadius="5">
             </TextBox>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1">
-            <Button Style="{StaticResource DefaultButton}" Content="Добавить" MinHeight="35" Width="150"  FontWeight="Bold"  Margin="0,20,90,0">
-
+            <Button Style="{StaticResource DefaultButton}" Click="AddOrderButton_click" Content="Добавить" MinHeight="35" Width="150"  FontWeight="Bold"  Margin="0,20,90,0">
             </Button>
         </StackPanel>
     </Grid>
