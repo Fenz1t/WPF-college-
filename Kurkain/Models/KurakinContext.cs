@@ -40,7 +40,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("orders");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.CountPerson).HasColumnName("count_person");
             entity.Property(e => e.Date)
@@ -66,7 +66,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("order_products");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.OrderId).HasColumnName("order_id");
             entity.Property(e => e.ProductId).HasColumnName("product_id");
@@ -87,7 +87,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("products");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.Count).HasColumnName("count");
             entity.Property(e => e.Price).HasColumnName("price");
@@ -101,7 +101,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("roles");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.Name).HasColumnName("name");
         });
@@ -111,7 +111,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("shifts");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.EndShift)
                 .HasColumnType("datetime")
@@ -129,7 +129,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("shift_users");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.ShiftId).HasColumnName("shift_id");
             entity.Property(e => e.UserId).HasColumnName("user_id");
@@ -150,7 +150,7 @@ public partial class KurakinContext : DbContext
             entity.ToTable("users");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("id");
             entity.Property(e => e.Login)
                 .IsUnicode(false)

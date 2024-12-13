@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kurkain"
         mc:Ignorable="d"
+        Loaded="Window_Loaded"
         Title="Добавление сотрудника" Height="500" Width="365" WindowStartupLocation="CenterScreen"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Window.Background>
@@ -330,17 +331,38 @@
 
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="90"></ColumnDefinition>
+            <ColumnDefinition Width="103"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" HorizontalAlignment="Left">
             <Label Content="Имя:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
+            <Label Content="Фамилия:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
             <Label Content="Логин:"   FontWeight="Bold" FontSize="15px" Foreground="White"   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
             <Label Content="Пароль:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
             <Label Content="Роль:"  FontWeight="Bold" FontSize="15px" Foreground="White"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,10,0"></Label>
         </StackPanel>
         <StackPanel Grid.Column="1">
             <TextBox x:Name="UsernameTextBox" Background="Transparent" Foreground="White" FontWeight="Bold"  BorderBrush="White"  VerticalAlignment="Top"  Margin="0,10,5,0" Height="31"  FontSize="16">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="TextBox">
+                                    <Border 
+BorderBrush="{TemplateBinding BorderBrush}" 
+BorderThickness="{TemplateBinding BorderThickness}" 
+Background="{TemplateBinding Background}" 
+CornerRadius="5">
+
+                                        <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+            <TextBox x:Name="SurnameTextBox" Background="Transparent" Foreground="White" FontWeight="Bold"  BorderBrush="White"  VerticalAlignment="Top"  Margin="0,10,5,0" Height="31"  FontSize="16">
                 <TextBox.Style>
                     <Style TargetType="TextBox">
                         <Setter Property="Template">
@@ -402,19 +424,14 @@ CornerRadius="5">
                 </PasswordBox.Style>
             </PasswordBox>
             <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="RoleTextBox"  Foreground="White" FontWeight="Bold" VerticalAlignment="Top"  Margin="0,10,5,0" Height="31" BorderBrush="Red" Background="Red" FontSize="16">
-               
-
-                
-                <TextBlock>Повар</TextBlock>
-                <TextBlock>Официант</TextBlock>
+           
             </ComboBox>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Grid.Column="1">
-            <Button Style="{StaticResource DefaultButton}" Content="Добавить" MinHeight="35" Width="150"  FontWeight="Bold"  Margin="0,20,90,0">
+            <Button Style="{StaticResource DefaultButton}" Click="AddEmployeeButton_click" Content="Добавить" MinHeight="35" Width="150"  FontWeight="Bold"  Margin="0,20,90,0">
 
             </Button>
         </StackPanel>
-
     </Grid>
 </Window>
