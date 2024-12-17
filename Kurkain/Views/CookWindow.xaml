@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kurkain"
         mc:Ignorable="d"
-        Title="Окно повара" Height="500" Width="365"  WindowStartupLocation="CenterScreen">
+        Loaded= "LoadOrders"
+        WindowStyle="SingleBorderWindow"
+        Title="Окно повара" Height="500" Width="400"  WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1" >
             <GradientStop Color="#00BFFF" Offset="0" />
@@ -72,9 +74,18 @@
 
 
             <Border BorderThickness="1" Grid.Row="0" Margin="0,0,0,0">
-                <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" 
-       HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontWeight="Bold"
-       CanUserAddRows="False">
+                <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" 
+       HorizontalAlignment="Stretch" IsReadOnly="False" VerticalAlignment="Stretch" FontWeight="Bold"
+       CanUserAddRows="False" RowEditEnding="DataGrid_RowEditEnding">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="id" Binding="{Binding Id}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="*" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="UserId" Binding="{Binding UserId}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Place" Binding="{Binding Place}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="CountPerson" Binding="{Binding CountPerson}" Width="*"></DataGridTextColumn>
+
+                    </DataGrid.Columns>
                     <DataGrid.Background>
                         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
                             <GradientStop Color="#00BFFF" Offset="0" />
@@ -96,7 +107,6 @@
                         </Style>
                     </DataGrid.RowStyle>
                 </DataGrid>
-
             </Border>
 
 

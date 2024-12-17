@@ -56,7 +56,11 @@ namespace Kurkain.Views
             }
             var placeItem = PlaceTextBox.SelectedItem as ComboBoxItem;
             string place = placeItem?.Content?.ToString();
-
+            if (string.IsNullOrEmpty(status))
+            {
+                MessageBox.Show("Пожалуйста, выберите корректный статус.");
+                return;
+            }
             int clientsCount = 0;
 
             if (!int.TryParse(CountClientsTextBox.Text, out clientsCount))
