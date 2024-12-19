@@ -3,8 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:Kurkain"
         mc:Ignorable="d"
+        Loaded="LoadUsers"
         Title="Новая смена" Height="450" Width="800"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Window.Background>
@@ -330,224 +332,240 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal">
             <Label Content="Start Date and Time:" FontSize="15px" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <DatePicker Height="26" Margin="0,0,10,0" Width="112" RenderTransformOrigin="0.51,0.596" FontSize="14px"/>
-            <ComboBox Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" Margin="0,0,0,0" FontSize="15px">
-                <ComboBoxItem Content="00"/>
-                <ComboBoxItem Content="01"/>
-                <ComboBoxItem Content="02"/>
-                <ComboBoxItem Content="03"/>
-                <ComboBoxItem Content="04"/>
-                <ComboBoxItem Content="05"/>
-                <ComboBoxItem Content="06"/>
-                <ComboBoxItem Content="07"/>
-                <ComboBoxItem Content="08"/>
-                <ComboBoxItem Content="09"/>
-                <ComboBoxItem Content="10"/>
-                <ComboBoxItem Content="11"/>
-                <ComboBoxItem Content="11"/>
-                <ComboBoxItem Content="12"/>
-                <ComboBoxItem Content="13"/>
-                <ComboBoxItem Content="14"/>
-                <ComboBoxItem Content="15"/>
-                <ComboBoxItem Content="16"/>
-                <ComboBoxItem Content="18"/>
-                <ComboBoxItem Content="19"/>
-                <ComboBoxItem Content="20"/>
-                <ComboBoxItem Content="21"/>
-                <ComboBoxItem Content="22"/>
-                <ComboBoxItem Content="23"/>
-                <ComboBoxItem Content="00"/>
+            <DatePicker x:Name="StartDatePicker" Height="26" Margin="0,0,10,0" Width="112" RenderTransformOrigin="0.51,0.596" FontSize="14px"/>
+            <ComboBox x:Name="StartHourComboBox" Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" Margin="0,0,0,0" FontSize="15px">
+                <ComboBox.ItemsSource>
+                    <x:Array Type="{x:Type sys:String}">
+                        <sys:String>00</sys:String>
+                        <sys:String>01</sys:String>
+                        <sys:String>02</sys:String>
+                        <sys:String>03</sys:String>
+                        <sys:String>04</sys:String>
+                        <sys:String>05</sys:String>
+                        <sys:String>06</sys:String>
+                        <sys:String>07</sys:String>
+                        <sys:String>08</sys:String>
+                        <sys:String>09</sys:String>
+                        <sys:String>10</sys:String>
+                        <sys:String>11</sys:String>
+                        <sys:String>12</sys:String>
+                        <sys:String>13</sys:String>
+                        <sys:String>14</sys:String>
+                        <sys:String>15</sys:String>
+                        <sys:String>16</sys:String>
+                        <sys:String>17</sys:String>
+                        <sys:String>18</sys:String>
+                        <sys:String>19</sys:String>
+                        <sys:String>20</sys:String>
+                        <sys:String>21</sys:String>
+                        <sys:String>22</sys:String>
+                        <sys:String>23</sys:String>
+                    </x:Array>
+                </ComboBox.ItemsSource>
             </ComboBox>
             <Label Content=" : "  Margin="0,10,0,0"  FontSize="15" Width="21" Height="44" FontWeight="Bold"/>
-            <ComboBox Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" Margin="0,0,0,0" FontSize="15px">
-                <ComboBoxItem Content="00"/>
-                <ComboBoxItem Content="01"/>
-                <ComboBoxItem Content="02"/>
-                <ComboBoxItem Content="03"/>
-                <ComboBoxItem Content="04"/>
-                <ComboBoxItem Content="05"/>
-                <ComboBoxItem Content="06"/>
-                <ComboBoxItem Content="07"/>
-                <ComboBoxItem Content="08"/>
-                <ComboBoxItem Content="09"/>
-                <ComboBoxItem Content="10"/>
-                <ComboBoxItem Content="11"/>
-                <ComboBoxItem Content="12"/>
-                <ComboBoxItem Content="13"/>
-                <ComboBoxItem Content="14"/>
-                <ComboBoxItem Content="15"/>
-                <ComboBoxItem Content="16"/>
-                <ComboBoxItem Content="17"/>
-                <ComboBoxItem Content="18"/>
-                <ComboBoxItem Content="19"/>
-                <ComboBoxItem Content="20"/>
-                <ComboBoxItem Content="21"/>
-                <ComboBoxItem Content="22"/>
-                <ComboBoxItem Content="23"/>
-                <ComboBoxItem Content="24"/>
-                <ComboBoxItem Content="25"/>
-                <ComboBoxItem Content="26"/>
-                <ComboBoxItem Content="27"/>
-                <ComboBoxItem Content="28"/>
-                <ComboBoxItem Content="29"/>
-                <ComboBoxItem Content="30"/>
-                <ComboBoxItem Content="31"/>
-                <ComboBoxItem Content="32"/>
-                <ComboBoxItem Content="33"/>
-                <ComboBoxItem Content="34"/>
-                <ComboBoxItem Content="35"/>
-                <ComboBoxItem Content="36"/>
-                <ComboBoxItem Content="37"/>
-                <ComboBoxItem Content="38"/>
-                <ComboBoxItem Content="39"/>
-                <ComboBoxItem Content="40"/>
-                <ComboBoxItem Content="41"/>
-                <ComboBoxItem Content="42"/>
-                <ComboBoxItem Content="43"/>
-                <ComboBoxItem Content="44"/>
-                <ComboBoxItem Content="45"/>
-                <ComboBoxItem Content="46"/>
-                <ComboBoxItem Content="47"/>
-                <ComboBoxItem Content="48"/>
-                <ComboBoxItem Content="49"/>
-                <ComboBoxItem Content="50"/>
-                <ComboBoxItem Content="51"/>
-                <ComboBoxItem Content="52"/>
-                <ComboBoxItem Content="53"/>
-                <ComboBoxItem Content="54"/>
-                <ComboBoxItem Content="55"/>
-                <ComboBoxItem Content="56"/>
-                <ComboBoxItem Content="57"/>
-                <ComboBoxItem Content="58"/>
-                <ComboBoxItem Content="59"/>
-
+            <ComboBox x:Name="StartMinuteComboBox" Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" Margin="0,0,0,0" FontSize="15px">
+                <ComboBox.ItemsSource>
+                    <x:Array Type="{x:Type sys:String}">
+                        <sys:String>00</sys:String>
+                        <sys:String>01</sys:String>
+                        <sys:String>02</sys:String>
+                        <sys:String>03</sys:String>
+                        <sys:String>04</sys:String>
+                        <sys:String>05</sys:String>
+                        <sys:String>06</sys:String>
+                        <sys:String>07</sys:String>
+                        <sys:String>08</sys:String>
+                        <sys:String>09</sys:String>
+                        <sys:String>10</sys:String>
+                        <sys:String>11</sys:String>
+                        <sys:String>12</sys:String>
+                        <sys:String>13</sys:String>
+                        <sys:String>14</sys:String>
+                        <sys:String>15</sys:String>
+                        <sys:String>16</sys:String>
+                        <sys:String>17</sys:String>
+                        <sys:String>18</sys:String>
+                        <sys:String>19</sys:String>
+                        <sys:String>20</sys:String>
+                        <sys:String>21</sys:String>
+                        <sys:String>22</sys:String>
+                        <sys:String>23</sys:String>
+                        <sys:String>24</sys:String>
+                        <sys:String>25</sys:String>
+                        <sys:String>26</sys:String>
+                        <sys:String>27</sys:String>
+                        <sys:String>28</sys:String>
+                        <sys:String>29</sys:String>
+                        <sys:String>30</sys:String>
+                        <sys:String>31</sys:String>
+                        <sys:String>32</sys:String>
+                        <sys:String>33</sys:String>
+                        <sys:String>34</sys:String>
+                        <sys:String>35</sys:String>
+                        <sys:String>36</sys:String>
+                        <sys:String>37</sys:String>
+                        <sys:String>38</sys:String>
+                        <sys:String>39</sys:String>
+                        <sys:String>40</sys:String>
+                        <sys:String>41</sys:String>
+                        <sys:String>42</sys:String>
+                        <sys:String>43</sys:String>
+                        <sys:String>44</sys:String>
+                        <sys:String>45</sys:String>
+                        <sys:String>46</sys:String>
+                        <sys:String>47</sys:String>
+                        <sys:String>48</sys:String>
+                        <sys:String>49</sys:String>
+                        <sys:String>50</sys:String>
+                        <sys:String>51</sys:String>
+                        <sys:String>52</sys:String>
+                        <sys:String>53</sys:String>
+                        <sys:String>54</sys:String>
+                        <sys:String>55</sys:String>
+                        <sys:String>56</sys:String>
+                        <sys:String>57</sys:String>
+                        <sys:String>58</sys:String>
+                        <sys:String>59</sys:String>
+                    </x:Array>
+                </ComboBox.ItemsSource>
             </ComboBox>
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
             <Label Content="End Date and Time:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15px" Foreground="White" FontWeight="Bold"></Label>
-            <DatePicker Height="26" Width="112" FontSize="14px" Margin="0,0,10,0"/>
-            <ComboBox Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" Margin="0" FontSize="15px">
-                <ComboBoxItem Content="00"/>
-                <ComboBoxItem Content="01"/>
-                <ComboBoxItem Content="02"/>
-                <ComboBoxItem Content="03"/>
-                <ComboBoxItem Content="04"/>
-                <ComboBoxItem Content="05"/>
-                <ComboBoxItem Content="06"/>
-                <ComboBoxItem Content="07"/>
-                <ComboBoxItem Content="08"/>
-                <ComboBoxItem Content="09"/>
-                <ComboBoxItem Content="10"/>
-                <ComboBoxItem Content="11"/>
-                <ComboBoxItem Content="11"/>
-                <ComboBoxItem Content="12"/>
-                <ComboBoxItem Content="13"/>
-                <ComboBoxItem Content="14"/>
-                <ComboBoxItem Content="15"/>
-                <ComboBoxItem Content="16"/>
-                <ComboBoxItem Content="18"/>
-                <ComboBoxItem Content="19"/>
-                <ComboBoxItem Content="20"/>
-                <ComboBoxItem Content="21"/>
-                <ComboBoxItem Content="22"/>
-                <ComboBoxItem Content="23"/>
-                <ComboBoxItem Content="00"/>
+            <DatePicker x:Name="EndDatePicker" Height="26" Width="112" FontSize="14px" Margin="0,0,10,0"/>
+            <ComboBox x:Name="EndHourComboBox" Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" Margin="0" FontSize="15px">
+                <ComboBox.ItemsSource>
+                    <x:Array Type="{x:Type sys:String}">
+                        <sys:String>00</sys:String>
+                        <sys:String>01</sys:String>
+                        <sys:String>02</sys:String>
+                        <sys:String>03</sys:String>
+                        <sys:String>04</sys:String>
+                        <sys:String>05</sys:String>
+                        <sys:String>06</sys:String>
+                        <sys:String>07</sys:String>
+                        <sys:String>08</sys:String>
+                        <sys:String>09</sys:String>
+                        <sys:String>10</sys:String>
+                        <sys:String>11</sys:String>
+                        <sys:String>12</sys:String>
+                        <sys:String>13</sys:String>
+                        <sys:String>14</sys:String>
+                        <sys:String>15</sys:String>
+                        <sys:String>16</sys:String>
+                        <sys:String>17</sys:String>
+                        <sys:String>18</sys:String>
+                        <sys:String>19</sys:String>
+                        <sys:String>20</sys:String>
+                        <sys:String>21</sys:String>
+                        <sys:String>22</sys:String>
+                        <sys:String>23</sys:String>
+                    </x:Array>
+                </ComboBox.ItemsSource>
             </ComboBox>
             <Label Content=" : " FontSize="15" Width="21" FontWeight="Bold" Height="36"/>
-            <ComboBox Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" FontSize="15px">
-                <ComboBoxItem Content="00"/>
-                <ComboBoxItem Content="01"/>
-                <ComboBoxItem Content="02"/>
-                <ComboBoxItem Content="03"/>
-                <ComboBoxItem Content="04"/>
-                <ComboBoxItem Content="05"/>
-                <ComboBoxItem Content="06"/>
-                <ComboBoxItem Content="07"/>
-                <ComboBoxItem Content="08"/>
-                <ComboBoxItem Content="09"/>
-                <ComboBoxItem Content="10"/>
-                <ComboBoxItem Content="11"/>
-                <ComboBoxItem Content="12"/>
-                <ComboBoxItem Content="13"/>
-                <ComboBoxItem Content="14"/>
-                <ComboBoxItem Content="15"/>
-                <ComboBoxItem Content="16"/>
-                <ComboBoxItem Content="17"/>
-                <ComboBoxItem Content="18"/>
-                <ComboBoxItem Content="19"/>
-                <ComboBoxItem Content="20"/>
-                <ComboBoxItem Content="21"/>
-                <ComboBoxItem Content="22"/>
-                <ComboBoxItem Content="23"/>
-                <ComboBoxItem Content="24"/>
-                <ComboBoxItem Content="25"/>
-                <ComboBoxItem Content="26"/>
-                <ComboBoxItem Content="27"/>
-                <ComboBoxItem Content="28"/>
-                <ComboBoxItem Content="29"/>
-                <ComboBoxItem Content="30"/>
-                <ComboBoxItem Content="31"/>
-                <ComboBoxItem Content="32"/>
-                <ComboBoxItem Content="33"/>
-                <ComboBoxItem Content="34"/>
-                <ComboBoxItem Content="35"/>
-                <ComboBoxItem Content="36"/>
-                <ComboBoxItem Content="37"/>
-                <ComboBoxItem Content="38"/>
-                <ComboBoxItem Content="39"/>
-                <ComboBoxItem Content="40"/>
-                <ComboBoxItem Content="41"/>
-                <ComboBoxItem Content="42"/>
-                <ComboBoxItem Content="43"/>
-                <ComboBoxItem Content="44"/>
-                <ComboBoxItem Content="45"/>
-                <ComboBoxItem Content="46"/>
-                <ComboBoxItem Content="47"/>
-                <ComboBoxItem Content="48"/>
-                <ComboBoxItem Content="49"/>
-                <ComboBoxItem Content="50"/>
-                <ComboBoxItem Content="51"/>
-                <ComboBoxItem Content="52"/>
-                <ComboBoxItem Content="53"/>
-                <ComboBoxItem Content="54"/>
-                <ComboBoxItem Content="55"/>
-                <ComboBoxItem Content="56"/>
-                <ComboBoxItem Content="57"/>
-                <ComboBoxItem Content="58"/>
-                <ComboBoxItem Content="59"/>
-
+            <ComboBox x:Name="EndMinuteComboBox" Style="{DynamicResource ComboBoxStyle1}" Width="65" Height="25" FontSize="15px">
+                <ComboBox.ItemsSource>
+                    <x:Array Type="{x:Type sys:String}">
+                    <sys:String>00</sys:String>
+                    <sys:String>01</sys:String>
+                    <sys:String>02</sys:String>
+                    <sys:String>03</sys:String>
+                    <sys:String>04</sys:String>
+                    <sys:String>05</sys:String>
+                    <sys:String>06</sys:String>
+                    <sys:String>07</sys:String>
+                    <sys:String>08</sys:String>
+                    <sys:String>09</sys:String>
+                    <sys:String>10</sys:String>
+                    <sys:String>11</sys:String>
+                    <sys:String>12</sys:String>
+                    <sys:String>13</sys:String>
+                    <sys:String>14</sys:String>
+                    <sys:String>15</sys:String>
+                    <sys:String>16</sys:String>
+                    <sys:String>17</sys:String>
+                    <sys:String>18</sys:String>
+                    <sys:String>19</sys:String>
+                    <sys:String>20</sys:String>
+                    <sys:String>21</sys:String>
+                    <sys:String>22</sys:String>
+                    <sys:String>23</sys:String>
+                    <sys:String>24</sys:String>
+                    <sys:String>25</sys:String>
+                    <sys:String>26</sys:String>
+                    <sys:String>27</sys:String>
+                    <sys:String>28</sys:String>
+                    <sys:String>29</sys:String>
+                    <sys:String>30</sys:String>
+                    <sys:String>31</sys:String>
+                    <sys:String>32</sys:String>
+                    <sys:String>33</sys:String>
+                    <sys:String>34</sys:String>
+                    <sys:String>35</sys:String>
+                    <sys:String>36</sys:String>
+                    <sys:String>37</sys:String>
+                    <sys:String>38</sys:String>
+                    <sys:String>39</sys:String>
+                    <sys:String>40</sys:String>
+                    <sys:String>41</sys:String>
+                    <sys:String>42</sys:String>
+                    <sys:String>43</sys:String>
+                    <sys:String>44</sys:String>
+                    <sys:String>45</sys:String>
+                    <sys:String>46</sys:String>
+                    <sys:String>47</sys:String>
+                    <sys:String>48</sys:String>
+                    <sys:String>49</sys:String>
+                    <sys:String>50</sys:String>
+                    <sys:String>51</sys:String>
+                    <sys:String>52</sys:String>
+                    <sys:String>53</sys:String>
+                    <sys:String>54</sys:String>
+                    <sys:String>55</sys:String>
+                    <sys:String>56</sys:String>
+                    <sys:String>57</sys:String>
+                    <sys:String>58</sys:String>
+                    <sys:String>59</sys:String>
+                </x:Array>
+                </ComboBox.ItemsSource>
             </ComboBox>
         </StackPanel>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal">
             <Label Content="Employees:" FontSize="15px" Foreground="White" FontWeight="Bold"></Label>
-            <DataGrid x:Name="shiftsGrid" VerticalAlignment="Top" AutoGenerateColumns="True" d:ItemsSource="{d:SampleData ItemCount=5}" FontWeight="Bold"
-    CanUserAddRows="False" Background="#007CA6" Width="668" Height="230">
+            <DataGrid x:Name="EmployeesDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" 
+HorizontalAlignment="Stretch" Background="Transparent" Width="668" Height="250"  VerticalAlignment="Stretch" FontWeight="Bold"
+CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="id" Binding="{Binding Id}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Surname" Binding="{Binding Surname}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="role_id" Binding="{Binding RoleId}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Login" Binding="{Binding Login}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"></DataGridTextColumn>
+                </DataGrid.Columns>
                 <DataGrid.ColumnHeaderStyle>
-
-                    <Style TargetType="{x:Type DataGridColumnHeader}">
-                        <Setter Property="Background" Value="#ADD8E6"/>
-                        <Setter Property="Foreground" Value="Black"/>
-                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
-                        <Setter Property="VerticalAlignment" Value="Center"/>
-                        <Setter Property="BorderBrush" Value="Black"/>
-                        <Setter Property="BorderThickness" Value="0,0,1,0"/>
-
-                    </Style>
-                </DataGrid.ColumnHeaderStyle>
-                <DataGrid.RowStyle>
-                    <Style TargetType="{x:Type DataGridRow}">
-                        <Setter Property="Background" Value="#007CA6" />
-                        <Setter Property="Foreground" Value="White" />
-
-                    </Style>
-                </DataGrid.RowStyle>
-
-
-            </DataGrid>
+          <Style TargetType="DataGridColumnHeader">
+              <Setter Property="Background" Value="#ADD8E6" />
+              <Setter Property="Foreground" Value="Black" />
+              <Setter Property="HorizontalContentAlignment" Value="Center"/>
+              <Setter Property="VerticalAlignment" Value="Center"/>
+           
+          </Style>
+      </DataGrid.ColumnHeaderStyle>
+      <DataGrid.RowStyle>
+          <Style TargetType="DataGridRow">
+              <Setter Property="Background" Value="#007CA6" />
+              <Setter Property="Foreground" Value="White" />
+          </Style>
+      </DataGrid.RowStyle>
+  </DataGrid>
         </StackPanel>
         <StackPanel Grid.Row="3">
-            <Button Style="{StaticResource DefaultButton}" Content="Добавить новую смену" Margin="10" FontWeight="Bold"  Width="250" Height="50"></Button>
+            <Button Style="{StaticResource DefaultButton}" Click="AddShiftButton_Click" Content="Добавить новую смену" Margin="10" FontWeight="Bold"  Width="250" Height="50"></Button>
         </StackPanel>
 
     </Grid>

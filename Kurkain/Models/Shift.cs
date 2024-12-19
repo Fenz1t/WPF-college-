@@ -7,7 +7,7 @@ public partial class Shift
 {
     public int Id { get; set; }
 
-    public DateTime StarShift { get; set; }
+    public DateTime StartShift { get; set; }
 
     public DateTime EndShift { get; set; }
 

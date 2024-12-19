@@ -116,9 +116,9 @@ public partial class KurakinContext : DbContext
             entity.Property(e => e.EndShift)
                 .HasColumnType("datetime")
                 .HasColumnName("end_shift");
-            entity.Property(e => e.StarShift)
+            entity.Property(e => e.StartShift)
                 .HasColumnType("datetime")
-                .HasColumnName("star_shift");
+                .HasColumnName("start_shift");
             entity.Property(e => e.StatusShift)
                 .IsUnicode(false)
                 .HasColumnName("status_shift");

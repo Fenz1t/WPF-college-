@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kurkain"
         mc:Ignorable="d"
+        Loaded="LoadShifts"
         Title="Управление сменами" Height="450" WindowStartupLocation="CenterScreen" Width="800">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
@@ -36,9 +37,9 @@
             </Style.Triggers>
         </Style>
         <Style x:Key="DeleteButton" TargetType="Button">
-            <Setter Property="Background" Value="#3821A0"/>
-            <Setter Property="Foreground" Value="white"/>
-            <Setter Property="BorderBrush" Value="#FF7773F5"/>
+            <Setter Property="Background" Value="#ADD8E6"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
             <Setter Property="Template">
 
                 <Setter.Value>
@@ -51,9 +52,9 @@
             </Setter>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="Red"/>
+                    <Setter Property="Background" Value="Tomato"/>
                     <Setter Property="Foreground" Value="White"/>
-                    <Setter Property="BorderBrush" Value="Red"/>
+                    <Setter Property="BorderBrush" Value="Tomato"/>
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -61,15 +62,21 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="150"/>
+            <RowDefinition Height="200"/>
 
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
         <Border BorderThickness="1" Grid.Row="0" Margin="0,0,0,0">
-            <DataGrid Name="shiftsGrid" AutoGenerateColumns="True" 
+            <DataGrid Name="shiftsGrid" IsReadOnly="False" RowEditEnding="ShiftsGrid_RowEditEnding" AutoGenerateColumns="False" 
     HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontWeight="Bold"
     CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="id" Binding="{Binding Id}" Width="*"/>
+                    <DataGridTextColumn Header="Start Shift" Binding="{Binding StartShift}" Width="*"/>
+                    <DataGridTextColumn Header="End Shift" Binding="{Binding EndShift}" Width="*"/>
+                    <DataGridTextColumn Header="Status" Binding="{Binding StatusShift}" Width="*"/>
+                </DataGrid.Columns>
                 <DataGrid.Background>
                     <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
                         <GradientStop Color="#00BFFF" Offset="0" />
@@ -105,8 +112,9 @@
         </Border>
 
         <StackPanel Grid.Row="1">
-           
-            <Button Style="{StaticResource DefaultButton}" Content="Создать новую смену" HorizontalAlignment="Center" FontWeight="Bold" Margin="35" Width="250" Height="50"></Button>
+
+            <Button Style="{StaticResource DefaultButton}" Click="AddShift_click" Content="Создать новую смену" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,40,0,0" Width="250" Height="50"></Button>
+            <Button Style="{StaticResource DefaultButton}" Click="LoadShifts" Content="Обновить таблицу смен" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,10,0,0" Width="250" Height="50"></Button>
         </StackPanel>
 
     </Grid>

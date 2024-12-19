@@ -1,5 +1,8 @@
-﻿using System;
+﻿using Kurkain.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
@@ -21,30 +24,99 @@ namespace Kurkain.Views
     /// </summary>
     public partial class ShiftsManagement : Window
     {
-        List<Orders> orders = new List<Orders>();
+        public ObservableCollection<Shift> Shifts { get; set; }
 
         public ShiftsManagement()
         {
-            //InitializeComponent();
-            //orders.Add(new Orders { shiftid = 13, startdate = new DateTime(2024, 10, 1), enddate = new DateTime(2024, 11, 1), isactive = true, employeesinfo = "офик(Официант), повар(Повар)" });
-            //shiftsGrid.ItemsSource = orders;
-
-
+            InitializeComponent();
+            Shifts = new ObservableCollection<Shift>(); // Инициализация коллекции смен
+            shiftsGrid.ItemsSource = Shifts; // Привязка коллекции к DataGrid
         }
 
-        class Orders
+        // Метод для загрузки смен из базы данных
+        public async void LoadShifts(object sender, RoutedEventArgs e)
         {
-            //public int shiftid { get; set; }
-            //public DateTime startdate { get; set; }
-            //public DateTime enddate { get; set; }
-            //public bool isactive { get; set; }
-            //public string employeesinfo { get; set; }
+            using (var context = new KurakinContext())
+            {
+                var shifts = await context.Shifts.ToListAsync(); // Загружаем все смены из базы данных
 
-         
+                Shifts.Clear();  // Очищаем коллекцию перед добавлением новых данных
+                foreach (var shift in shifts)
+                {
+                    Shifts.Add(shift); // Добавляем каждую смену в коллекцию
+                }
+            }
+        }
+
+        // Метод для удаления выбранной смены(Удаление из двух таблиц нужно переделывать)
+        //private void DeleteShiftButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    var selectedShift = shiftsGrid.SelectedItem as Shift;
+
+        //    if (selectedShift != null)
+        //    {
+        //        using (var context = new KurakinContext())
+        //        {
+        //            var shift = context.Shifts.FirstOrDefault(s => s.Id == selectedShift.Id);
+        //            if (shift != null)
+        //            {
+        //                context.Shifts.Remove(shift);
+        //                context.SaveChanges();
+
+        //                Shifts.Remove(selectedShift);
+        //                MessageBox.Show("Смена успешно удалена.");
+        //            }
+        //            else
+        //            {
+        //                MessageBox.Show("Ошибка: смена не найдена.");
+        //            }
+        //        }
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Пожалуйста, выберите смену для удаления.");
+        //    }
+        //}
+        private async void ShiftsGrid_RowEditEnding(object sender, DataGridRowEditEndingEventArgs e)
+        {
+            var editedShift = e.Row.Item as Shift;
+
+            if (editedShift != null)
+            {
+                using (var context = new KurakinContext())
+                {
+                    // Проверяем, существует ли смена с таким Id в базе данных
+                    var shiftToUpdate = await context.Shifts.FirstOrDefaultAsync(s => s.Id == editedShift.Id);
+
+                    if (shiftToUpdate != null)
+                    {
+                        // Обновляем свойства смены
+                        shiftToUpdate.StartShift = editedShift.StartShift;
+                        shiftToUpdate.EndShift = editedShift.EndShift;
+                        shiftToUpdate.StatusShift = editedShift.StatusShift;
+
+                        // Сохраняем изменения в базе данных
+                       await context.SaveChangesAsync();
+
+
+                        MessageBox.Show("Смена успешно обновлена!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Ошибка: смена не найдена.");
+                    }
+                }
+            }
+        }
+
+        private void AddShift_click(object sender, RoutedEventArgs e) 
+        {
+
+            AddShift AddShift = new AddShift();
+            AddShift.Show();
 
         }
 
-     
 
 
 
@@ -52,17 +124,4 @@ namespace Kurkain.Views
 
 
     };
-        }
-
-        
-       
-            
-
-
-        
-       
-    
-    
-
-
-
+}
