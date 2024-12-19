@@ -27,7 +27,7 @@
                 <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="9" Opacity="0.5"/>
             </Border.Effect>
             <StackPanel>
-            <Button Content="Управление сотрудниками"  MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
+            <Button Content="Управление сотрудниками" Click="EmployeeButton_Click"  MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                             <Setter Property="Background" Value="#ADD8E6"/>
@@ -53,7 +53,7 @@
                     </Style>
                 </Button.Style>
             </Button>
-            <Button Content="Управление заказами" MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
+            <Button Content="Управление заказами" Click="OrderButton_Click" MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                             <Setter Property="Background" Value="#ADD8E6"/>
@@ -79,7 +79,7 @@
                     </Style>
                 </Button.Style>
             </Button>
-            <Button Content="Управление сменами" MinWidth="200"  MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
+            <Button Content="Управление сменами" Click="ShiftManagement_Click" MinWidth="200"  MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                             <Setter Property="Background" Value="#ADD8E6"/>
@@ -105,7 +105,7 @@
                     </Style>
                 </Button.Style>
             </Button>
-            <Button Content="Выйти" MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
+            <Button Content="Выйти" Click="ExitButton_Click" MinWidth="200" MinHeight="50" Margin="10" BorderThickness="2" FontWeight="Bold">
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
                             <Setter Property="Background" Value="#ADD8E6"/>
