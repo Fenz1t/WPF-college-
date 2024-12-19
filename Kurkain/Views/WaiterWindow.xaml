@@ -72,7 +72,7 @@
 
 
             <Border BorderThickness="1" Grid.Row="0" Margin="0,0,0,0">
-                <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" 
+                <DataGrid x:Name="OrdersGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" 
        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontWeight="Bold"
        CanUserAddRows="False" RowEditEnding="DataGrid_RowEditEnding">
                     <DataGrid.Columns>

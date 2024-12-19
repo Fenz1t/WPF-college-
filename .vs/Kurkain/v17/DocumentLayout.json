@@ -3,63 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\waiterwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\waiterwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\waiterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\waiterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\addorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\addorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\addemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\addemployee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\ordersmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\ordersmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\employeemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\employeemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\addorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\addorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Kurakin/True/SqlTable/dbo.orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\cookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\cookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\cookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\cookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\shiftsmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\shiftsmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\waiterwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\waiterwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\addemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\addemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\addshift.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\addshift.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\waiterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\waiterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\addshift.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -70,19 +35,27 @@
       "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\shiftsmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Kurakin/True/SqlTable/dbo.shifts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Kurakin/True/SqlTable/dbo.users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\cookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\cookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\views\\ordersmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\views\\ordersmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|c:\\users\\user\\desktop\\3 \u043A\u0443\u0440\u0441 \u0441\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\kurkain 26\\kurkain\\models\\kurakincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E775EDD3-02A2-4F9C-90C2-49250725D64F}|Kurkain\\Kurkain.csproj|solutionrelative:kurkain\\models\\kurakincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -92,8 +65,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShiftsManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\ShiftsManagement.xaml",
+              "RelativeDocumentMoniker": "Kurkain\\Views\\ShiftsManagement.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\ShiftsManagement.xaml",
+              "RelativeToolTip": "Kurkain\\Views\\ShiftsManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T19:16:08.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShiftsManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\ShiftsManagement.xaml.cs",
+              "RelativeDocumentMoniker": "Kurkain\\Views\\ShiftsManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\ShiftsManagement.xaml.cs",
+              "RelativeToolTip": "Kurkain\\Views\\ShiftsManagement.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:16:07.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddShift.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddShift.xaml",
+              "RelativeDocumentMoniker": "Kurkain\\Views\\AddShift.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddShift.xaml",
+              "RelativeToolTip": "Kurkain\\Views\\AddShift.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T19:16:02.559Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -101,123 +111,100 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmployeeManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\EmployeeManagement.xaml",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\EmployeeManagement.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\EmployeeManagement.xaml",
-              "RelativeToolTip": "Kurkain\\Views\\EmployeeManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T16:09:37.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddEmployee.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddEmployee.xaml",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AddEmployee.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddEmployee.xaml",
-              "RelativeToolTip": "Kurkain\\Views\\AddEmployee.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T16:09:02.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddOrder.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddOrder.xaml.cs",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AddOrder.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddOrder.xaml.cs",
-              "RelativeToolTip": "Kurkain\\Views\\AddOrder.xaml.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAowBYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:36:04.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AdminWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AdminWindow.xaml",
-              "RelativeToolTip": "Kurkain\\Views\\AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T15:35:51.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WaiterWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\WaiterWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\WaiterWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\WaiterWindow.xaml.cs",
-              "RelativeToolTip": "Kurkain\\Views\\WaiterWindow.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAEUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:25:17.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "WaiterWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\WaiterWindow.xaml",
               "RelativeDocumentMoniker": "Kurkain\\Views\\WaiterWindow.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\WaiterWindow.xaml",
               "RelativeToolTip": "Kurkain\\Views\\WaiterWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T18:56:51.449Z",
+              "WhenOpened": "2024-12-19T18:39:50.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddOrder.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddOrder.xaml",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AddOrder.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddOrder.xaml",
-              "RelativeToolTip": "Kurkain\\Views\\AddOrder.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T20:24:47.878Z",
+              "DocumentIndex": 4,
+              "Title": "WaiterWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\WaiterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kurkain\\Views\\WaiterWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\WaiterWindow.xaml.cs",
+              "RelativeToolTip": "Kurkain\\Views\\WaiterWindow.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwBgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T18:39:41.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbo.orders [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Kurakin/True/SqlTable/dbo.orders.sql",
-              "ToolTip": "dbo.orders [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-17T18:33:54.929Z",
+              "DocumentIndex": 0,
+              "Title": "OrdersManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\OrdersManagement.xaml.cs",
+              "RelativeDocumentMoniker": "Kurkain\\Views\\OrdersManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\OrdersManagement.xaml.cs",
+              "RelativeToolTip": "Kurkain\\Views\\OrdersManagement.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwEUAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T18:36:53.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EmployeeManagement.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\EmployeeManagement.xaml.cs",
               "RelativeDocumentMoniker": "Kurkain\\Views\\EmployeeManagement.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\EmployeeManagement.xaml.cs",
               "RelativeToolTip": "Kurkain\\Views\\EmployeeManagement.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAALAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwFQAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:36:28.364Z",
+              "WhenOpened": "2024-12-19T18:59:18.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "CookWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\CookWindow.xaml.cs",
               "RelativeDocumentMoniker": "Kurkain\\Views\\CookWindow.xaml.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\CookWindow.xaml.cs",
               "RelativeToolTip": "Kurkain\\Views\\CookWindow.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAcwEMAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:23:57.458Z",
+              "WhenOpened": "2024-12-19T18:37:01.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\EmployeeManagement.xaml",
+              "RelativeDocumentMoniker": "Kurkain\\Views\\EmployeeManagement.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\EmployeeManagement.xaml",
+              "RelativeToolTip": "Kurkain\\Views\\EmployeeManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T18:58:06.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.users [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Kurakin/True/SqlTable/dbo.users.sql",
+              "ToolTip": "dbo.users [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-19T18:58:51.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Kurkain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Models\\User.cs",
+              "RelativeToolTip": "Kurkain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:05:58.288Z",
               "EditorCaption": ""
             },
             {
@@ -229,110 +216,24 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\App.xaml",
               "RelativeToolTip": "Kurkain\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T18:30:16.049Z",
+              "WhenOpened": "2024-12-19T18:41:08.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CookWindow.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\CookWindow.xaml",
               "RelativeDocumentMoniker": "Kurkain\\Views\\CookWindow.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\CookWindow.xaml",
               "RelativeToolTip": "Kurkain\\Views\\CookWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-17T18:13:35.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AdminWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AdminWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AdminWindow.xaml.cs",
-              "RelativeToolTip": "Kurkain\\Views\\AdminWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:35:54.287Z",
+              "WhenOpened": "2024-12-19T18:38:51.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "AddEmployee.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddEmployee.xaml.cs",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AddEmployee.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddEmployee.xaml.cs",
-              "RelativeToolTip": "Kurkain\\Views\\AddEmployee.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:36:00.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ShiftsManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\ShiftsManagement.xaml",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\ShiftsManagement.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\ShiftsManagement.xaml",
-              "RelativeToolTip": "Kurkain\\Views\\ShiftsManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T15:09:04.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddShift.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddShift.xaml",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AddShift.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddShift.xaml",
-              "RelativeToolTip": "Kurkain\\Views\\AddShift.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-19T15:16:07.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AddShift.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddShift.xaml.cs",
-              "RelativeDocumentMoniker": "Kurkain\\Views\\AddShift.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\AddShift.xaml.cs",
-              "RelativeToolTip": "Kurkain\\Views\\AddShift.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T18:23:30.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Kurkain\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\App.xaml.cs",
-              "RelativeToolTip": "Kurkain\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:28:24.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "dbo.shifts [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Kurakin/True/SqlTable/dbo.shifts.sql",
-              "ToolTip": "dbo.shifts [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-19T15:16:40.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "OrdersManagement.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Views\\OrdersManagement.xaml",
               "RelativeDocumentMoniker": "Kurkain\\Views\\OrdersManagement.xaml",
@@ -340,19 +241,6 @@
               "RelativeToolTip": "Kurkain\\Views\\OrdersManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-19T15:09:01.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "KurakinContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Models\\KurakinContext.cs",
-              "RelativeDocumentMoniker": "Kurkain\\Models\\KurakinContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\3 \u043A\u0443\u0440\u0441 \u0421\u0435\u0440\u0435\u0433\u0438\u043D\u0430\\Kurkain 26\\Kurkain\\Models\\KurakinContext.cs",
-              "RelativeToolTip": "Kurkain\\Models\\KurakinContext.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAswCoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T18:29:30.266Z",
               "EditorCaption": ""
             }
           ]

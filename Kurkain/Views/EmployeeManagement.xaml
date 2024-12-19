@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kurkain"
         mc:Ignorable="d"
+        Loaded="LoadUsers"
         Title="Управление Сотрудниками" Height="500" Width="365" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
@@ -40,7 +41,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="150"/>
+            <RowDefinition Height="200"/>
            
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -48,9 +49,18 @@
 
 
         <Border BorderThickness="1" Grid.Row="0" Margin="0,0,0,0">
-            <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" 
+            <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" 
           HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontWeight="Bold"
           CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="id" Binding="{Binding Id}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Surname" Binding="{Binding Surname}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="role_id" Binding="{Binding RoleId}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Login" Binding="{Binding Login}" Width="*"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"></DataGridTextColumn>
+                </DataGrid.Columns>
                 <DataGrid.Background>
                     <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
                         <GradientStop Color="#00BFFF" Offset="0" />
@@ -78,12 +88,16 @@
 
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center"  HorizontalAlignment="Center">
-            <Button Style="{StaticResource DefaultButton}" MinWidth="250" MinHeight="35" Content="Уволить выбранного сотрудника" FontWeight="Bold">
+            <Button Style="{StaticResource DefaultButton}" Click="DeleteUserButton_Click" MinWidth="250" MinHeight="35" Content="Уволить выбранного сотрудника" FontWeight="Bold">
                 
             </Button>
             <Button Style="{StaticResource DefaultButton}" Content="Добавить нового сотрудника" Click="AddEmployeeButton_Click" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0" >
                 
             </Button>
+            <Button Style="{StaticResource DefaultButton}" Click="LoadUsers" Content="Обновить таблицу с сотрудниками" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0">
+
+            </Button>
+
             <Button Style="{StaticResource DefaultButton}" Click="Button_Click"  Content="Назад" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0">
 
             </Button>

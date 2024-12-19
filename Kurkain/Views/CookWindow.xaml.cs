@@ -19,7 +19,7 @@ namespace Kurkain.Views
         {
             InitializeComponent();
             Orders = new ObservableCollection<Order>();  // Инициализация коллекции
-            EmployeesGrid.ItemsSource = Orders; // Привязка коллекции
+            OrdersGrid.ItemsSource = Orders; // Привязка коллекции
         }
 
         private async void DataGrid_RowEditEnding(object sender, DataGridRowEditEndingEventArgs e)

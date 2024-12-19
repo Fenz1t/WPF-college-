@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kurkain"
         mc:Ignorable="d"
-        Title="Управление заказами" Height="500" Width="365" WindowStartupLocation="CenterScreen">
+        Loaded="LoadOrders"
+        Title="Управление заказами" Height="500" Width="400" WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
             <GradientStop Color="#00BFFF" Offset="0" />
@@ -63,7 +64,7 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="150"/>
+                <RowDefinition Height="200"/>
 
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -71,9 +72,18 @@
 
 
             <Border BorderThickness="1" Grid.Row="0" Margin="0,0,0,0">
-                <DataGrid x:Name="EmployeesGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="True" 
+                <DataGrid x:Name="OrdersGrid" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" 
        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontWeight="Bold"
        CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="id" Binding="{Binding Id}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Date" Binding="{Binding Date}" Width="*" ></DataGridTextColumn>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="UserId" Binding="{Binding UserId}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Place" Binding="{Binding Place}" Width="*"></DataGridTextColumn>
+                        <DataGridTextColumn Header="CountPerson" Binding="{Binding CountPerson}" Width="*"></DataGridTextColumn>
+
+                    </DataGrid.Columns>
                     <DataGrid.Background>
                         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
                             <GradientStop Color="#00BFFF" Offset="0" />
@@ -100,12 +110,16 @@
 
 
             <StackPanel Grid.Row="1" VerticalAlignment="Center"  HorizontalAlignment="Center">
-                <Button Style="{StaticResource DeleteButton}" MinWidth="250" MinHeight="35" Content="Удалить выбранный заказ" FontWeight="Bold">
+                <Button Style="{StaticResource DeleteButton}" Click="DeleteOrderButton_Click" MinWidth="250" MinHeight="35" Content="Удалить выбранный заказ" FontWeight="Bold">
 
                 </Button>
-                <Button Style="{StaticResource DefaultButton}" Content="Добавить новый заказ" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0" >
+                <Button Style="{StaticResource DefaultButton}" Click="OpenOrder_Click" Content="Добавить новый заказ" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0" >
 
                 </Button>
+                <Button Style="{StaticResource DefaultButton}" Click="LoadOrders"  Content="Обновить таблицу заказов" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0">
+
+                </Button>
+
                 <Button Style="{StaticResource DefaultButton}" Click="Button_Click"  Content="Назад" MinWidth="250" MinHeight="35"  FontWeight="Bold"  Margin="0,10,0,0">
 
                 </Button>
