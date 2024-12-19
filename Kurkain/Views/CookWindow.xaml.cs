@@ -48,7 +48,7 @@ namespace Kurkain.Views
             }
         }
 
-        private async void LoadOrders(object sender, RoutedEventArgs e)
+        public async void LoadOrders(object sender, RoutedEventArgs e)
         {
             using (var context = new KurakinContext())
             {
@@ -61,6 +61,12 @@ namespace Kurkain.Views
                     Orders.Add(order);  // Добавляем заказы в ObservableCollection
                 }
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            AddOrder addOrder = new AddOrder();
+            addOrder.Show();
         }
     }
 }
